@@ -1,0 +1,130 @@
+<modal-opener
+  class="product-popup-modal__opener freight-popup-modal__opener quick-add-hidden"
+  data-modal="#PopupModal-{{ freight_estimate_id }}"
+>
+  <button
+    id="ProductPopup-{{ freight_estimate_id }}"
+    class="product-popup-modal__button button button--secondary"
+    type="button"
+    aria-haspopup="dialog"
+  >
+    {% render 'icon-truck' %}
+    <br>
+    <span>{{- 'products.product.freight_estimator.label' | t -}}</span>
+  </button>
+</modal-opener>
+
+<modal-dialog
+  id="PopupModal-{{ freight_estimate_id }}"
+  class="product-popup-modal freight-popup-modal color-{{ color_scheme }}"
+>
+  <div
+    role="dialog"
+    aria-label="Fedex Freight Estimator"
+    aria-modal="true"
+    class="product-popup-modal__content product-popup-modal__content--freight"
+    tabindex="-1"
+  >
+    <button
+      id="ModalClose-{{ freight_estimate_id }}"
+      type="button"
+      class="product-popup-modal__toggle product-freight-modal__toggle"
+      aria-label="{{ 'accessibility.close' | t }}"
+    >
+      {% render 'icon-close' %}
+    </button>
+    <div class="freight-estimator__content-info grid grid--1-3-col">
+      <div class="grid__item freight-estimator__info">
+        <h1 class="h2">
+          {{- 'products.product.freight_estimator.label' | t -}}
+        </h1>
+        <p>
+          {{- 'products.product.freight_estimator.info' | t -}}
+        </p>
+        <div>
+          <freight-form sku="{{ sku }}">
+            <div class="field">
+              <input
+                class="field__input"
+                type="text"
+                id="fedexForm-sku"
+                name="sku"
+                value="{{ sku }}"
+                placeholder="{{ sku }}"
+              >
+              <label class="field__label" for="fedexForm-sku">
+                {{- 'products.product.freight_estimator.field_1' | t -}}
+              </label>
+            </div>
+
+            <div class="field">
+              <input
+                class="field__input"
+                type="number"
+                id="fedexForm-quantity"
+                name="quantity"
+                placeholder="{{ 'products.product.freight_estimator.field_2' | t }}"
+              >
+              <label class="field__label" for="fedexForm-quantity">
+                {{- 'products.product.freight_estimator.field_2' | t -}}
+              </label>
+            </div>
+
+            <div class="field">
+              <input
+                class="field__input"
+                autocomplete="zipcode"
+                type="text"
+                id="fedexForm-zipcode"
+                name="postal_code"
+                placeholder="{{ 'products.product.freight_estimator.field_3' | t }}"
+              >
+              <label class="field__label" for="fedexForm-zipcode">
+                {{- 'products.product.freight_estimator.field_3' | t -}}
+              </label>
+            </div>
+            <button
+              class="button"
+              type="submit"
+            >
+              {{- 'products.product.freight_estimator.submit' | t -}}
+            </button>
+          </freight-form>
+        </div>
+        <h2 class="h2">
+          {{- 'products.product.freight_estimator.additional_info' | t -}}
+        </h2>
+        <p>
+          {{- 'products.product.freight_estimator.additional_info_desc' | t -}}
+        </p>
+      </div>
+      <div class="grid__item freight_estimator__content">
+        <div class="error-message__freight">{{- 'products.product.freight_estimator.error_message' | t -}}</div>
+        <div class="loading__spinner--freight">
+          {{- 'products.product.freight_estimator.loading' | t -}}
+          {%- render 'loading-spinner', class: 'spinner--freight' -%}
+        </div>
+        <div class="fedex__content">
+          <div
+            class="media media--transparent freight_estimator__media ratio"
+            {% if freight_image != blank %}
+              style="--ratio-percent: {{ 1 | divided_by: freight_image.aspect_ratio | times: 100 }}%"
+            {% else %}
+              style="--ratio-percent: 100%"
+            {% endif %}
+          >
+            {% if freight_image != blank %}
+              {{
+                freight_image
+                | image_url: width: 3000
+                | image_tag: sizes: sizes, widths: '550, 720, 990, 1100, 1500, 2200, 3000'
+              }}
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</modal-dialog>

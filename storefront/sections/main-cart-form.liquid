@@ -1,0 +1,68 @@
+{{ 'main-cart-form.css' | asset_url | stylesheet_tag }}
+
+<cart-form class="cart-form">
+  <h2 class="cart-form__heading">{{ section.settings.form_heading }}</h2>
+  <p class="cart-form__paragraph">{{ section.settings.form_description }}</p>
+
+  <form id="customerForm">
+    <input type="hidden" name="form_type" value="custom_contact">
+    <input type="hidden" name="utf8" value="✓">
+
+    <!-- Hidden field to store cart items as JSON string -->
+    <input type="hidden" id="cartItems" name="cart_items" value="">
+
+    <label for="customer_name" class="cart-form__label required">Name of the Customer:</label>
+    <input type="text" id="customer_name" name="customer_name" class="cart-form__input" required>
+
+    <label for="company" class="cart-form__label required">Company:</label>
+    <input type="text" id="company" name="company" class="cart-form__input" required>
+
+    <label for="country" class="cart-form__label required">Country:</label>
+    <input type="text" id="country" name="country" class="cart-form__input" required>
+
+    <label for="email" class="cart-form__label required">Email:</label>
+    <input type="email" id="email" name="email" class="cart-form__input" required>
+
+    <label for="notes" class="cart-form__label required">Notes:</label>
+    <textarea id="notes" name="notes" class="cart-form__textarea" required></textarea>
+
+    <div class="g-recaptcha required" data-sitekey="6Ld8_k4qAAAAAK-AkpUWfzzk8CA-Oo12vreUIZgq"></div>
+
+    <!-- dynamically populated -->
+    <label for="product_list" class="cart-form__product-list">Products:</label>
+    <div id="productList">
+      <!-- Products here -->
+    </div>
+
+    <button type="submit" class="cart-form__button">Submit</button>
+  </form>
+
+  <div id="cart-form__message"></div>
+</cart-form>
+
+<script src="{{ 'main-cart-form-handler.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "cart-form",
+  "settings": [
+    {
+      "type": "text",
+      "id": "form_heading",
+      "label": "Form Heading",
+      "default": "Contact Us"
+    },
+    {
+      "type": "textarea",
+      "id": "form_description",
+      "label": "Form Description",
+      "default": "Please fill out the form below to get in touch with us."
+    }
+  ],
+  "presets": [
+    {
+      "name": "cart-form"
+    }
+  ]
+}
+{% endschema %}

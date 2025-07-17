@@ -1,0 +1,25 @@
+{%- assign price_options= product.selected_or_first_available_variant.metafields.custom.pricing_options | split: ',' -%}
+{%- assign price_value = price_options | first | remove: '"' | remove: ' ' | remove: ']' | remove: '[' | append: '-price' -%}
+{%- assign price_metafield = product.selected_or_first_available_variant.metafields.custom[price_value] -%}
+{%- assign prices = price_metafield.value | split: ',' -%}
+
+{%- if prices.size > 5 -%}
+  {%- assign display_price = prices[4] | remove: '"' | remove: ' '| remove: ']' | remove: '[' -%}
+{%- else -%}
+  {%- assign display_price = prices | sort | first | remove: '"' | remove: ' ' | remove: ']' | remove: '[' -%}
+{%- endif -%}
+
+{%- assign sale_price = product.selected_or_first_available_variant.compare_at_price -%}
+
+<div class="price">
+  {%- if sale_price > 0 -%}
+    <div class="price__sale">
+      <s>{{ 'products.product.as_low_as' | t: price: display_price | escape | strip }}</s>
+      <span>{{ 'products.product.sale_price' | t: sale_price: sale_price | money }}</span>
+    </div>
+  {%- else -%}
+    <div class="price__regular">
+      <span>{{ 'products.product.as_low_as' | t: price: display_price | escape | strip }}</span>
+    </div>
+  {%- endif -%}
+</div>

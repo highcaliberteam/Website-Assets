@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_WgW3aH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mNkAza": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "title": "Video 1",
+            "text": "<p>Watch how we make Lanyards</p>",
+            "link_label": "",
+            "link": "https://youtube.com"
+          }
+        },
+        "column_jGHWb6": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Qk9aTV": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["column_mNkAza", "column_jGHWb6", "column_Qk9aTV"],
+      "disabled": true,
+      "settings": {
+        "title": "Product Videos",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_66Bgww": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"text-align: center;\">Product Videos</h1>\n<table>\n<tr>\n<td><div class=\"row\">\n    <div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/m0qve5ITgjg\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>How Metal Key Chains Are Made</h4>\n                <p>Learn how anodized key chains are made from start to finish.</p>\n                <a href=\"https://www.youtube.com/watch?v=m0qve5ITgjg\" target=\"_blank\">HCL VIDEO</a>\n                <br>\n                <a href=\"https://www.youtube.com/watch?v=qwO1FhiJ81g\" target=\"_blank\">UNBRANDED</a>\n            </div>\n        </div>\n    </div></td>\n<td>  <div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/GmqMBpRrqOc\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>How Sublimated Lanyards are Printed</h4>\n                <p>We cover the process to apply full-color dye sublimation imprints to lanyards.</p>\n                <a href=\"https://www.youtube.com/watch?v=GmqMBpRrqOc\" target=\"_blank\">HCL VIDEO</a>\n                <br>\n                <a href=\"https://www.youtube.com/watch?v=jsrW6u_KONo\" target=\"_blank\">UNBRANDED</a>\n            </div>\n        </div>\n    </div></td>\n<td> <div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/d-9q_t-eNZ8\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>Lanyards: Stitching & Silk Screening</h4>\n                <p>Watch the manufacturing of our woven and silk screened lanyards.</p>\n                <a href=\"https://we.tl/t-4fhBoLUW2e\" target=\"_blank\">HCL VIDEO</a>\n                <br>\n                <a href=\"https://we.tl/t-D33s6kfeCF\" target=\"_blank\">UNBRANDED</a>\n            </div>\n        </div>\n    </div></td>\n</tr>\n<tr>\n<td>  <div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/WgaWa-Br6yg\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>All About Lip Balm</h4>\n                <p>Watch how our factory's method for creating our fast-selling lip balms.</p>\n                <a href=\"https://www.youtube.com/watch?v=WgaWa-Br6yg\" target=\"_blank\">HCL VIDEO</a>\n                <br>\n                <a href=\"https://www.youtube.com/watch?v=INlxEe2VBIU\" target=\"_blank\">UNBRANDED</a>\n            </div>\n        </div>\n    </div></td>\n<td><div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/fUBo8MZdXTI\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>Vacuum Sealed Mugs & Bottles</h4>\n                <p>Watch how a mug or water bottle is vacuum sealed.</p>\n                <a href=\"https://www.youtube.com/watch?v=fUBo8MZdXTI\" target=\"_blank\">HCL VIDEO</a>\n                <br>\n                <a href=\"https://www.youtube.com/watch?v=HiXCmwXq4dY\" target=\"_blank\">UNBRANDED</a>\n            </div>\n        </div>\n    </div></td>\n<td><div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/29GA4dDFVRI\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>How Dye Sub Masks are Printed</h4>\n                <p>Watch the fascinating process of full-color dye sublimation on Covid masks.</p>\n                <a href=\"https://www.youtube.com/watch?v=29GA4dDFVRI\" target=\"_blank\">HCL VIDEO</a>\n                <br>\n                <a href=\"https://www.youtube.com/watch?v=t09DWaTOet8\" target=\"_blank\">UNBRANDED</a>\n            </div>\n        </div>\n    </div>\n</div></td>\n</tr>\n<tr>\n<td><div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/kMBw8JwwQJQ\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>Crossover Tactical Survival band</h4>\n                <p>Features 550 paracord, compass, fire starter and a whistle.</p>\n                <a href=\"https://www.youtube.com/watch?kMBw8JwwQJQ\" target=\"_blank\">HCL VIDEO</a>\n            </div>\n        </div>\n    </div></td>\n<td>  <div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/wjOPdz19Xk4\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>Bamboo Mobile Device Holder</h4>\n                <p>Made of high-quality bamboo. Perfect for holding mobile devices of many sizes.</p>\n                <a href=\"https://www.youtube.com/watch?v=wjOPdz19Xk4\" target=\"_blank\">HCL VIDEO</a>\n            </div>\n        </div>\n    </div></td>\n<td><div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/mRGpklm7Q_Y\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>Wheat Straw Bento Box</h4>\n                <p>Features dual Wheat Straw lunch compartments, utensils & bamboo lid.</p>\n                <a href=\"https://www.youtube.com/watch?v=mRGpklm7Q_Y\" target=\"_blank\">HCL VIDEO</a>\n            </div>\n        </div>\n    </div></td>\n</tr>\n<tr>\n<td><div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/_vOvnVNriwI\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>LED RGB Mood Light Strip</h4>\n                <p>Features 16 colors, 4 animation modes, brightness & speed adjust.</p>\n                <a href=\"https://www.youtube.com/watch?v=_vOvnVNriwI\" target=\"_blank\">HCL VIDEO</a>\n            </div>\n        </div>\n    </div></td>\n<td> <div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/VIDKLs1ffRU\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>Airplane Pocket</h4>\n                <p>A stretchable cover for airplane tray tables with four expandable pockets.</p>\n                <a href=\"https://www.youtube.com/watch?v=VIDKLs1ffRU\" target=\"_blank\">HCL VIDEO</a>\n            </div>\n        </div>\n    </div></td>\n<td>    <div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/GtIzhNS4q5U\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>The Kooty Key Anti-Germ Utility</h4>\n                <p>Made from hardened plastic. Open doors up to 35lbs. Comes with a rubberized tip.</p>\n                <a href=\"https://www.youtube.com/watch?v=GtIzhNS4q5U\" target=\"_blank\">HCL VIDEO</a>\n            </div>\n        </div>\n    </div></td>\n</tr>\n<tr>\n<td><div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/zdTRz5baPLk\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>The Alba Photo Frame</h4>\n                <p>Made of sueded leatherette and holds a 5x7-inch photo.</p>\n                <a href=\"https://www.youtube.com/watch?v=zdTRz5baPLk\" target=\"_blank\">HCL VIDEO</a>\n            </div>\n        </div>\n    </div></td>\n<td> <div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/3LYCGp_eUWU\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>The All-In-One Tape Measure</h4>\n                <p>A 10ft. tape measure with bubble level, yellow notepad and pen.</p>\n                <a href=\"https://www.youtube.com/watch?v=3LYCGp_eUWU\" target=\"_blank\">HCL VIDEO</a>\n            </div>\n        </div>\n    </div></td>\n<td><div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/oKKajpPWXoo\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4>Spinning Highlighter</h4>\n                <p>Comes with 5 great colors or marker housed in a spinning case.</p>\n                <a href=\"https://www.youtube.com/watch?v=oKKajpPWXoo\" target=\"_blank\">HCL VIDEO</a>\n            </div>\n        </div>\n    </div></td>\n</tr>\n</table>",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": ["main", "multicolumn_WgW3aH", "custom_liquid_66Bgww"]
+}

@@ -1,0 +1,205 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collection_list_76bEHp": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_3tirHe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bags"
+          }
+        },
+        "featured_collection_gx3jw4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blankets-1"
+          }
+        },
+        "featured_collection_EgcetJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chargers-power-banks"
+          }
+        },
+        "featured_collection_eik4r8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "drinkware"
+          }
+        },
+        "featured_collection_QwMyV8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "first-aid-kits"
+          }
+        },
+        "featured_collection_jWY3ix": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houseware"
+          }
+        },
+        "featured_collection_87JRT6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keychains"
+          }
+        },
+        "featured_collection_ygXUzY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kits"
+          }
+        },
+        "featured_collection_ebL7iW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lanyards"
+          }
+        },
+        "featured_collection_9WVwzD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office"
+          }
+        },
+        "featured_collection_WY7Fcg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "personal-care"
+          }
+        },
+        "featured_collection_qgzDix": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pet-care"
+          }
+        },
+        "featured_collection_hccwEF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "phone-accessories"
+          }
+        },
+        "featured_collection_kAcUcX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "safety-gear"
+          }
+        },
+        "featured_collection_BhXKx7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sports-recreation"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_3tirHe",
+        "featured_collection_gx3jw4",
+        "featured_collection_EgcetJ",
+        "featured_collection_eik4r8",
+        "featured_collection_QwMyV8",
+        "featured_collection_jWY3ix",
+        "featured_collection_87JRT6",
+        "featured_collection_ygXUzY",
+        "featured_collection_ebL7iW",
+        "featured_collection_9WVwzD",
+        "featured_collection_WY7Fcg",
+        "featured_collection_qgzDix",
+        "featured_collection_hccwEF",
+        "featured_collection_kAcUcX",
+        "featured_collection_BhXKx7"
+      ],
+      "settings": {
+        "title": "ALL CATEGORIES",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_YTfCwW": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_6BcfFt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sunglasses-goggles"
+          }
+        },
+        "featured_collection_HQDKg8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tech-audio"
+          }
+        },
+        "featured_collection_AkjcXP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cooling-towels"
+          }
+        },
+        "featured_collection_VhzBP3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toys"
+          }
+        },
+        "featured_collection_3hNfkt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tools"
+          }
+        },
+        "featured_collection_n6X3YE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "glassware"
+          }
+        },
+        "featured_collection_FLcQc4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "eco-friendly"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_6BcfFt",
+        "featured_collection_HQDKg8",
+        "featured_collection_AkjcXP",
+        "featured_collection_VhzBP3",
+        "featured_collection_3hNfkt",
+        "featured_collection_n6X3YE",
+        "featured_collection_FLcQc4"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": ["main", "collection_list_76bEHp", "collection_list_YTfCwW"]
+}

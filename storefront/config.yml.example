@@ -1,0 +1,5 @@
+###  Development  ###
+[environment]:
+  password: [password]
+  theme_id: [theme_id]
+  store: [store.myshopify.com]

@@ -1,0 +1,524 @@
+{
+  "sections": {
+    "multicolumn_cdFhYY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3jhXNw": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/All-Categories-Bubble.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "All Categories",
+            "link": "shopify://pages/all-categories"
+          }
+        },
+        "column_TfHrK4": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/B708-10-lf2-800px_8c259685-af2f-4644-be13-1fb52b8a6669.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "New Items",
+            "link": "shopify://collections/new-arrivals"
+          }
+        },
+        "column_4zFfcH": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/S989-thumbnail-800px.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Drinkware",
+            "link": "shopify://collections/drinkware"
+          }
+        },
+        "column_qcBcHg": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/B652-thumbnail-800px.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Bags",
+            "link": "shopify://pages/bags-category"
+          }
+        },
+        "column_zekKpc": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/FirstAidKits.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "First Aid Kits",
+            "link": "shopify://collections/first-aid-kits"
+          }
+        },
+        "column_CBxpLN": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/H711-02-lf.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Sports and Rec",
+            "link": "shopify://collections/sports-recreation"
+          }
+        },
+        "column_tmBcCj": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/TechandAudio2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Tech and Audio",
+            "link": "shopify://collections/tech-audio"
+          }
+        },
+        "column_Tdxm8R": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/L401-thumbnail-800px_4d5447a0-b733-4186-8040-f95c2b7f9451.jpg",
+            "title": "Lanyards",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/lanyard-test"
+          }
+        },
+        "column_UB4FJX": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/S930-main.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Closeout/Make An Offer",
+            "link": "shopify://collections/make-an-offer"
+          }
+        }
+      },
+      "block_order": [
+        "column_3jhXNw",
+        "column_TfHrK4",
+        "column_4zFfcH",
+        "column_qcBcHg",
+        "column_zekKpc",
+        "column_CBxpLN",
+        "column_tmBcCj",
+        "column_Tdxm8R",
+        "column_UB4FJX"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 8,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-83220331-bc12-4525-86ef-724f528745b1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "fe_color_scheme": ""
+      }
+    },
+    "slideshow_7d3QTi": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Upg8aR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/File.jpg",
+            "slide_link": "shopify://blogs/news/adapting-and-thriving-navigating-the-shifting-tariff-landscape-a-word-from-our-ceo-dan-oas",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_rmL4rh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/merch-catalog-desktop-slider_ea3c96c4-7638-4736-a7f4-1b4f09080ebe.jpg",
+            "slide_link": "shopify://pages/ecatalog",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_8Rhwqh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/uv-PPAI25-desk_09.jpg",
+            "slide_link": "shopify://products/tbd-double-wall-bottle-with-clip-cap-hand-lid-and-sipping-straw",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ftmLGg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Lanyards-desk_04.jpg",
+            "slide_link": "shopify://pages/lanyard-test",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://pages/lanyard-test",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_8w8YWh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/mini-bag-desktop-slider2_1.jpg",
+            "slide_link": "shopify://products/tbd-14oz-poly-cotton-mini-tote-bag",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Upg8aR",
+        "slide_rmL4rh",
+        "slide_8Rhwqh",
+        "slide_ftmLGg",
+        "slide_8w8YWh"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_C7fYNB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_A6i7hV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_KWi7Ky": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_cRr6EN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": ["heading_A6i7hV", "text_KWi7Ky", "button_cRr6EN"],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b2fbadd7-65a0-40c0-80dd-c1082b0ea35d",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_xrQUNG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qpXgad": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "title": "★★★★★",
+            "text": "<p>On a recent order with complex client requests, I was very impressed with responsiveness and communication!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ymHkh6": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "title": "★★★★★",
+            "text": "<p>Our team was dealing with an urgent rush order, and HCL provided swift assurance and tracking information quickly! What a relief!!!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qTYmDR": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "title": "★★★★★",
+            "text": "<p>Fast turnaround and reliable. Great company to work with. Highly recommended!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["column_qpXgad", "column_ymHkh6", "column_qTYmDR"],
+      "custom_css": [
+        ".multicolumn .title {margin: auto; text-align: center;}",
+        "h3 {color: #ffb800;}"
+      ],
+      "settings": {
+        "title": "What our customers say about us.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 96,
+        "padding_bottom": 64,
+        "fe_color_scheme": ""
+      }
+    },
+    "rich_text_Agjy8K": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iTLNrQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "High Caliber Is A Leading Supplier Of High-Quality Promotional Products",
+            "heading_size": "h1"
+          }
+        },
+        "text_YVWMfj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>High Caliber is an industry leading promotional products supplier, HCL products are offered through our diverse network of top-rated distributors. Established in 1999, HCL has grown into an award-winning company recognized for its’ expansive range of products, exclusive product releases, elite product brands, highly competitive prices and exceptional customer support and service. </p>"
+          }
+        },
+        "button_mjDXgX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": ["heading_iTLNrQ", "text_YVWMfj", "button_mjDXgX"],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5e6faa2a-fcd5-43fc-b560-f63a1f305881",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_cUQ7mk": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Our top picks",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bestsellers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_XaKpWQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qpLWrC": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/S989-thumbnail-800px.jpg",
+            "title": "S989",
+            "text": "<h5>Two-Toned 27oz. Stainless Steel Straw Bottle</h5>",
+            "link_label": "",
+            "link": "shopify://products/tbd-double-wall-bottle-with-clip-cap-hand-lid-and-sipping-straw"
+          }
+        },
+        "column_H6Xtb4": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/S910-00-main-800px_a8b7b492-5dfd-4093-b2be-b030b0a3f023.jpg",
+            "title": "S910",
+            "text": "<h5>The Hippo Mug & Straw Lid 40 oz.</h5>",
+            "link_label": "",
+            "link": "shopify://products/the-hippo-mug-straw-lid-40-oz"
+          }
+        },
+        "column_ktQ8Ca": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/B708-thumbnail-800px.jpg",
+            "title": "B708",
+            "text": "<h5>Mini TJ Canvas Tote Bag</h5>",
+            "link_label": "",
+            "link": "shopify://products/tbd-14oz-poly-cotton-mini-tote-bag"
+          }
+        },
+        "column_LG4m8w": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/H710-ActionShot-800px.jpg",
+            "title": "H710",
+            "text": "<h5>Very Kool Cooling Towel</h5>",
+            "link_label": "",
+            "link": "shopify://products/very-kool-cooling-towel"
+          }
+        },
+        "column_QXdAGR": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/T515-Group-800px_9f20c316-be70-4e56-922c-59ef4cdbf579.jpg",
+            "title": "T515",
+            "text": "<h5>Popper Ball</h5>",
+            "link_label": "",
+            "link": "shopify://products/popper-ball"
+          }
+        },
+        "column_4dB8kh": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/B703-Main3-800px.jpg",
+            "title": "B703",
+            "text": "<h5>The Fenway Stadium Tote</h5>",
+            "link_label": "",
+            "link": "shopify://products/the-fenway-stadium-tote"
+          }
+        }
+      },
+      "block_order": [
+        "column_qpLWrC",
+        "column_H6Xtb4",
+        "column_ktQ8Ca",
+        "column_LG4m8w",
+        "column_QXdAGR",
+        "column_4dB8kh"
+      ],
+      "settings": {
+        "title": "<strong>HCL Favorite Products</strong>",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "View All Top Picks",
+        "button_link": "shopify://collections/top-picks",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "fe_color_scheme": ""
+      }
+    }
+  },
+  "order": [
+    "multicolumn_cdFhYY",
+    "slideshow_7d3QTi",
+    "rich_text_C7fYNB",
+    "multicolumn_xrQUNG",
+    "rich_text_Agjy8K",
+    "featured_collection_cUQ7mk",
+    "multicolumn_XaKpWQ"
+  ]
+}

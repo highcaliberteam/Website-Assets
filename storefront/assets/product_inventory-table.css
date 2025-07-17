@@ -1,0 +1,56 @@
+.product-table__container {
+  overflow: auto;
+}
+
+.product-table__options {
+  text-align: left;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.product-table__header {
+  min-width: 100px;
+  font-weight: bold;
+  font-weight: bold;
+  background: #f5f5f5;
+}
+
+.product-table__value {
+  min-width: 100px;
+  flex-shrink: 0;
+}
+
+.product-table__value--product {
+  min-width: 200px;
+}
+
+.product-table__good {
+  padding: 0.75rem;
+  background: rgba(0, 128, 0, 0.9);
+  color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+}
+
+.product-table__options thead .product-table__header {
+  padding: 0.75rem;
+  border: 1px solid rgba(var(--color-foreground), 0.1);
+  border-bottom-width: 2px;
+}
+
+.product-table__options tbody .product-table__value {
+  padding: 0.75rem;
+  border: 1px solid rgba(var(--color-foreground), 0.1);
+}
+
+.product-table__value .swatch {
+  width: 3rem;
+  height: 3rem;
+}
+
+.product-table__header.stock {
+  background-color: #008000;
+  color: #ffffff;
+}

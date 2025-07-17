@@ -1,0 +1,301 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_b8b9dE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_HyCDwE": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/B708-thumbnail-800px.jpg",
+            "title": "Bags",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/bags-category"
+          }
+        },
+        "column_zeFDKC": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Blankets.jpg",
+            "title": "Blankets",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/blankets-1"
+          }
+        },
+        "column_EUKCAE": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Powerbanks.jpg",
+            "title": "Chargers/ Power Banks",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/chargers-power-banks"
+          }
+        },
+        "column_gj9X9G": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/S989-thumbnail-800px.jpg",
+            "title": "Drinkware",
+            "text": "<p><br/></p>",
+            "link_label": "",
+            "link": "shopify://collections/drinkware"
+          }
+        },
+        "column_NULFQz": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/FirstAidKits.jpg",
+            "title": "First Aid Kits",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/first-aid-kits"
+          }
+        },
+        "column_BL4ttt": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Houseware-2.jpg",
+            "title": "Houseware",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/houseware"
+          }
+        },
+        "column_88ykAJ": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Keychains.jpg",
+            "title": "Keychains",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/keychains"
+          }
+        },
+        "column_GnVq4e": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/KT202-bundle-800px.jpg",
+            "title": "Kits/Bundles",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/kits"
+          }
+        },
+        "column_f4E6Ah": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Lanyards.jpg",
+            "title": "Lanyards",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/lanyard-test"
+          }
+        },
+        "column_eY6AwP": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/JT144-thumbnail.jpg",
+            "title": "Office/Writing Instruments",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/office"
+          }
+        },
+        "column_w7HdFm": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/H106-LG-open-800px.jpg",
+            "title": "Personal Care",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/personal-care"
+          }
+        },
+        "column_6xryCg": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/H111-main-800px.jpg",
+            "title": "Pet Products",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/pet-care"
+          }
+        },
+        "column_89wGgn": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Phone_Accessories.jpg",
+            "title": "Phone Accessories",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/phone-accessories"
+          }
+        },
+        "column_7Td388": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Safety.jpg",
+            "title": "Safety Gear",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/safety-gear"
+          }
+        },
+        "column_rLj7dW": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/SportsandRecreation.jpg",
+            "title": "Sports & Recreation",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/sports-recreation"
+          }
+        },
+        "column_47rKkX": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/SunglassesandGoggles.jpg",
+            "title": "Eyewear",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/sunglasses-goggles"
+          }
+        },
+        "column_K9xdji": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/TechandAudio2.jpg",
+            "title": "Tech & Audio",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/tech-audio"
+          }
+        },
+        "column_34RbET": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/H710-ActionShot-800px.jpg",
+            "title": "Towels/Sports Towels",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/cooling-towels"
+          }
+        },
+        "column_bNqckx": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Toys.jpg",
+            "title": "Toys/Sensory",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/toys"
+          }
+        },
+        "column_MMKbRj": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Tools_Thumbnail.jpg",
+            "title": "Tools",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/tools"
+          }
+        },
+        "column_FpAmEN": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Glassware-thumbnail.jpg",
+            "title": "Glassware",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/glassware"
+          }
+        },
+        "column_pF3J9K": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Eco-Friendly.jpg",
+            "title": "Eco-Friendly",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/eco-friendly"
+          }
+        }
+      },
+      "block_order": [
+        "column_HyCDwE",
+        "column_zeFDKC",
+        "column_EUKCAE",
+        "column_gj9X9G",
+        "column_NULFQz",
+        "column_BL4ttt",
+        "column_88ykAJ",
+        "column_GnVq4e",
+        "column_f4E6Ah",
+        "column_eY6AwP",
+        "column_w7HdFm",
+        "column_6xryCg",
+        "column_89wGgn",
+        "column_7Td388",
+        "column_rLj7dW",
+        "column_47rKkX",
+        "column_K9xdji",
+        "column_34RbET",
+        "column_bNqckx",
+        "column_MMKbRj",
+        "column_FpAmEN",
+        "column_pF3J9K"
+      ],
+      "settings": {
+        "title": "ALL CATEGORIES",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "fe_color_scheme": ""
+      }
+    }
+  },
+  "order": ["main", "multicolumn_b8b9dE"]
+}

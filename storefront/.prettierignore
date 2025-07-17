@@ -1,0 +1,18 @@
+# Don't format this
+*.md
+*.yml
+
+# Add files that should not be formatted here
+assets/vendor.css
+assets/vendor.js
+
+# JSON + Liquid
+snippets/product-media.liquid
+snippets/header-search.liquid
+sections/predictive-search.liquid
+sections/main-search.liquid
+snippets/card-product.liquid
+sections/main-product.liquid
+sections/header.liquid
+sections/announcement-bar.liquid
+snippets/product-thumbnail.liquid

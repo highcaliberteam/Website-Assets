@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_4a7ftd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_hJzVYY": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Patty_b68117b8-35df-461c-80ce-a1405e1195df.jpg",
+            "title": "",
+            "text": "<p><strong>Patty Gomez</strong></p><p>Sales Manager</p>",
+            "link_label": "",
+            "link": "shopify://pages/patty-gomez"
+          }
+        },
+        "column_TLJbim": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Vannessa_05e0db6d-f183-43da-9636-c43c5381289b.jpg",
+            "title": "",
+            "text": "<p><strong>Vanessa Ware</strong></p><p>Account Manager</p>",
+            "link_label": "",
+            "link": "shopify://pages/vanessa-ware-bio"
+          }
+        },
+        "column_9fbNmg": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Silvia_335c53c0-ba7e-46fa-ac62-9c445c17cca7.jpg",
+            "title": "",
+            "text": "<p><strong>Silvia Gonzalez</strong></p><p>Account Manager</p>",
+            "link_label": "",
+            "link": "shopify://pages/silvia-gonzalez-bio"
+          }
+        },
+        "column_wDNNhe": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Sheri_4cb22e80-599c-4237-bfc6-b85acd995774.jpg",
+            "title": "",
+            "text": "<p><strong>Sheri Johnson</strong></p><p>Account Manager</p>",
+            "link_label": "",
+            "link": "shopify://pages/sheri-johnson-bio"
+          }
+        },
+        "column_PQBa3h": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Kianna_2dbfa01b-ad1e-4bad-a04b-837765a7d2ab.jpg",
+            "title": "",
+            "text": "<p><strong>Kianna Valdez</strong></p><p>Account Manager</p>",
+            "link_label": "",
+            "link": "shopify://pages/kianna-valdez-bio"
+          }
+        },
+        "column_zfzhNU": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Tiffany.jpg",
+            "title": "",
+            "text": "<p><strong>Tiffany Castro</strong></p><p>Account Manager</p>",
+            "link_label": "",
+            "link": "shopify://pages/tiffany-castro-bio"
+          }
+        },
+        "column_NWDPne": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Mike_Headshot.jpg",
+            "title": "",
+            "text": "<p><strong>Mike Reed</strong></p><p>Account Manager</p>",
+            "link_label": "",
+            "link": "shopify://pages/mike-reed-bio"
+          }
+        },
+        "column_Bcf6WR": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Jack_314a2b68-b7a3-4caf-bb59-21968a0198e9.jpg",
+            "title": "",
+            "text": "<p><strong>Jack Padian</strong></p><p>Account Manager</p>",
+            "link_label": "",
+            "link": "shopify://pages/jack-padian-bio"
+          }
+        },
+        "column_Fp67Vd": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/Abel.jpg",
+            "title": "",
+            "text": "<p><strong>Abel Arellano</strong></p><p>Account Manager</p>",
+            "link_label": "",
+            "link": "shopify://pages/abel-arellano"
+          }
+        },
+        "column_prX6MG": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/DASH-portrait.jpg",
+            "title": "",
+            "text": "<p><strong>Dash </strong></p><p>Chief Delivery Cheetah</p>",
+            "link_label": "",
+            "link": "shopify://pages/dash-chief-delivery-cheetah-bio"
+          }
+        }
+      },
+      "block_order": [
+        "column_hJzVYY",
+        "column_TLJbim",
+        "column_9fbNmg",
+        "column_wDNNhe",
+        "column_PQBa3h",
+        "column_zfzhNU",
+        "column_NWDPne",
+        "column_Bcf6WR",
+        "column_Fp67Vd",
+        "column_prX6MG"
+      ],
+      "settings": {
+        "title": "The Crew Behind the Magic",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "fe_color_scheme": ""
+      }
+    }
+  },
+  "order": ["main", "multicolumn_4a7ftd"]
+}

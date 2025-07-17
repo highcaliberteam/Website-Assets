@@ -1,0 +1,56 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_WgW3aH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mNkAza": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "title": "Video 1",
+            "text": "<p>Watch how we make Lanyards</p>",
+            "link_label": "",
+            "link": "https://youtube.com"
+          }
+        }
+      },
+      "block_order": ["column_mNkAza"],
+      "disabled": true,
+      "settings": {
+        "title": "Product Videos",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "fe_color_scheme": ""
+      }
+    },
+    "custom_liquid_66Bgww": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"text-align: center;\">All Episodes </h1>\n<table>\n<tr>\n<td><div class=\"row\">\n    <div class=\"col-sm-4\">\n        <div class=\"video-wrapper mb-30\">\n            <div class=\"embed-responsive embed-responsive-4by3\">\n              <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/gIQho-ZdgXA?si=WQXa_jGsJJ1QCTrs\" frameborder=\"0\"></iframe>\n            </div>\n            <div class=\"video-caption\">\n                <h4> Ep. 1 Talking Tariffs</h4>\n                <p>Our team talks tariffs, codes, and the <br>direction we're headed!</p>\n                <a href=\"https://www.youtube.com/watch?v=gIQho-ZdgXA\" target=\"_blank\">View on YouTube</a>\n                <br>\n            </div>\n        </div>\n    </div></td>\n\n</tr>\n</table>",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": ["main", "multicolumn_WgW3aH", "custom_liquid_66Bgww"]
+}

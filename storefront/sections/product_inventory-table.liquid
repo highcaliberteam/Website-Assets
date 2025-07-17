@@ -1,0 +1,159 @@
+{{ 'product_inventory-table.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="product-table__parent color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width">
+    <div class="section-{{ section.id }}-padding">
+      {%- unless section.settings.title == blank -%}
+        <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
+          <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+            {{ section.settings.title }}
+          </h2>
+        </div>
+      {%- endunless -%}
+
+      <div class="product-table__container">
+        <table class="product-table__options">
+          <thead>
+            <tr>
+              <th class="product-table__header">{{ 'inventory_table.sku' | t }}</th>
+              <th class="product-table__header">{{ 'inventory_table.product_name' | t }}</th>
+              <th class="product-table__header center">{{ 'inventory_table.quantity' | t }}</th>
+              <th class="product-table__header center">{{ 'inventory_table.incoming' | t }}</th>
+              <th class="product-table__header center">{{ 'inventory_table.availability' | t }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {%- for variant in product.variants -%}
+              <tr>
+                <td class="product-table__value">{{ variant.sku }}</td>
+                <td class="product-table__value product-table__value--product">
+                  {{ product.title }} - {{ variant.title }}
+                </td>
+                <td class="product-table__value center">
+                  {{ variant.metafields.custom.stock }}
+                </td>
+                <td class="product-table__value center">
+                  {{ variant.metafields.custom.incoming_shipment | default: "-" }}
+                </td>
+                <td class="product-table__value center">
+                  <span class="product-table__good">{{ 'inventory_table.in_stock' | t }}</span>
+
+                  {{ variant.metafields.custom.expected_ship_date | date: "%m-%d-%Y" }}
+                </td>
+              </tr>
+            {%- endfor -%}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div></div>
+
+    {% schema %}
+    {
+      "name": "Inventory Table",
+      "enabled_on": {
+        "templates": [
+          "product"
+        ]
+      },
+      "settings": [
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "scheme-1"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Current Inventory Status",
+          "label": "t:sections.multicolumn.settings.title.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            },
+            {
+              "value": "hxxl",
+              "label": "t:sections.all.heading_size.options__5.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "unit": "px",
+          "label": "t:sections.all.padding.padding_top",
+          "default": 40
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "unit": "px",
+          "label": "t:sections.all.padding.padding_bottom",
+          "default": 52
+        },
+        {
+          "type": "text",
+          "id": "order_number",
+          "label": "Order Number",
+          "default": "Sales Order Number *"
+        },
+        {
+          "type": "text",
+          "id": "postal_code",
+          "label": "Postal Code",
+          "default": "Ship To Zip or Postal Code *"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Inventory Table"
+        }
+      ]
+    }
+    {% endschema %}
+  </div>
+</div>

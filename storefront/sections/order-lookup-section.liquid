@@ -1,0 +1,73 @@
+{% assign order_number = '' %}
+{% assign postal_code = '' %}
+
+{%- assign page_url = content_for_header | split:'"pageurl":"' | last | split:'"' | first | split: request.host | last | replace:'\/','/' | replace:'%20',' ' | replace:'\u0026','&' -%}
+
+{% if page_url contains 'order_number' %}
+  {% assign order_number = page_url | split: 'order_number=' | last | split: '&' | first %}
+{% endif %}
+
+{% if page_url contains 'postal_code' %}
+  {% assign postal_code = page_url | split: 'postal_code=' | last | split: '&' | first %}
+{% endif %}
+
+<div id="order-details-section">
+  {% if order_number and postal_code %}
+    {% assign matching_order = false %}
+    {% if shop.metaobjects.orders[order_number] %}
+      {% assign order = shop.metaobjects.orders[order_number] %}
+      {% if order.zip_code == postal_code %}
+        {% assign matching_order = order %}
+      {% endif %}
+    {% endif %}
+
+    {% if matching_order %}
+      <table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: Arial, sans-serif;">
+        <thead>
+          <tr>
+            <th colspan="2" style="text-align: left; font-size: 1.5em; padding: 10px; background-color: #f4f4f4;">
+              Order Lookup
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #f9f9f9;">
+            <td style="padding: 10px; border: 1px solid #ccc;"><strong>Order Number: </strong></td>
+            <td style="padding: 10px; border: 1px solid #ccc;">{{ matching_order.order_number }}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #ccc;"><strong>Postal Code:</strong></td>
+            <td style="padding: 10px; border: 1px solid #ccc;">{{ matching_order.zip_code }}</td>
+          </tr>
+          <tr style="background-color: #f9f9f9;">
+            <td style="padding: 10px; border: 1px solid #ccc;"><strong>PO Number:</strong></td>
+            <td style="padding: 10px; border: 1px solid #ccc;">{{ matching_order.po_number }}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #ccc;"><strong>City:</strong></td>
+            <td style="padding: 10px; border: 1px solid #ccc;">{{ matching_order.city }}</td>
+          </tr>
+          <tr style="background-color: #f9f9f9;">
+            <td style="padding: 10px; border: 1px solid #ccc;"><strong>State:</strong></td>
+            <td style="padding: 10px; border: 1px solid #ccc;">{{ matching_order.state }}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #ccc;"><strong>Order Status:</strong></td>
+            <td style="padding: 10px; border: 1px solid #ccc;">{{ matching_order.status }}</td>
+          </tr>
+
+          {% if matching_order.tracking_number != blank %}
+            <tr style="background-color: #f9f9f9;">
+              <td style="padding: 10px; border: 1px solid #ccc;"><strong>Tracking Numbers:</strong></td>
+              <td style="padding: 10px; border: 1px solid #ccc;">{{ matching_order.tracking_number }}</td>
+            </tr>
+          {% endif %}
+        </tbody>
+      </table>
+    {% else %}
+      <p>Order not found or postal code mismatch.</p>
+    {% endif %}
+  {% else %}
+    <p>Missing order number or postal code.</p>
+  {% endif %}
+</div>

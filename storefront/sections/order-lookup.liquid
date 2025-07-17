@@ -1,0 +1,152 @@
+<script src="{{ 'order-lookup.js' | asset_url }}" defer="defer"></script>
+{{ 'customer.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="customer color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding order__form">
+    {%- unless section.settings.title == blank -%}
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    {%- endunless -%}
+
+    <order-lookup id="order-lookup-form">
+      <div class="order-lookup-form__wrapper">
+        <div class="field">
+          <input
+            type="text"
+            id="order-number"
+            name="order_number"
+            required
+            placeholder="{{ section.settings.order_number}}"
+          >
+          <label for="order-number">{{ section.settings.order_number }}</label>
+        </div>
+
+        <div class="field">
+          <input
+            type="text"
+            id="postal-code"
+            name="postal_code"
+            required
+            placeholder="{{ section.settings.postal_code}}"
+          >
+          <label for="postal-code">{{ section.settings.postal_code }}</label>
+        </div>
+
+        <button class="button button--full-width" type="submit">Search</button>
+      </div>
+      <div id="order-details" style="display:none;"></div>
+    </order-lookup>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Order Lookup",
+  "disabled_on": {
+    "groups": [
+      "header",
+      "footer"
+    ]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Order Information",
+      "label": "t:sections.multicolumn.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    },
+    {
+      "type": "text",
+      "id": "order_number",
+      "label": "Order Number",
+      "default": "Sales Order Number *"
+    },
+    {
+      "type": "text",
+      "id": "postal_code",
+      "label": "Postal Code",
+      "default": "Ship To Zip or Postal Code *"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Order Lookup"
+    }
+  ]
+}
+{% endschema %}

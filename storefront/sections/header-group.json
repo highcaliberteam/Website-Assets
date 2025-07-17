@@ -1,0 +1,176 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_TBVkmA": {
+          "type": "announcement",
+          "settings": {
+            "text": "Check Order Status",
+            "link": "shopify://pages/order-status"
+          }
+        },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "View All Products",
+            "link": "shopify://collections/all"
+          }
+        },
+        "announcement_nBkAYy": {
+          "type": "announcement",
+          "settings": {
+            "text": "Why Choose High Caliber?",
+            "link": "shopify://pages/why-choose-high-caliber"
+          }
+        },
+        "announcement_kReypQ": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "***HC-48 Express Rush Delivery***",
+            "link": "shopify://pages/hc-express-rush-delivery"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_TBVkmA",
+        "announcement-bar-0",
+        "announcement_nBkAYy",
+        "announcement_kReypQ"
+      ],
+      "custom_css": ["p.announcement-bar__message.h5 {font-size: 20px;}"],
+      "settings": {
+        "color_scheme": "scheme-aeb58c57-c913-447e-b381-ea75aaaec1ac",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [".header__icon--cart {display: none;}"],
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "drawer",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": false,
+        "color_scheme": "scheme-83220331-bc12-4525-86ef-724f528745b1",
+        "menu_color_scheme": "scheme-3",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "links_MecCHy": {
+      "type": "links",
+      "blocks": {
+        "column_AJTQHN": {
+          "type": "column",
+          "settings": {
+            "title": "All Categories",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/all-categories"
+          }
+        },
+        "column_xWm7zL": {
+          "type": "column",
+          "settings": {
+            "title": "New Items",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/new-arrivals"
+          }
+        },
+        "column_gjw9xk": {
+          "type": "column",
+          "settings": {
+            "title": "Drinkware",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/drinkware"
+          }
+        },
+        "column_twNr3V": {
+          "type": "column",
+          "settings": {
+            "title": "Bags",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/bags-category"
+          }
+        },
+        "column_eDrEQY": {
+          "type": "column",
+          "settings": {
+            "title": "Sports and Rec",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/sports-recreation"
+          }
+        },
+        "column_jxAUXk": {
+          "type": "column",
+          "settings": {
+            "title": "Tech and Audio",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/tech-audio"
+          }
+        },
+        "column_dkEM8D": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Lanyards",
+            "link": "shopify://pages/lanyard-test"
+          }
+        },
+        "column_9ahy3D": {
+          "type": "column",
+          "settings": {
+            "title": "Closeout",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/make-an-offer"
+          }
+        }
+      },
+      "block_order": [
+        "column_AJTQHN",
+        "column_xWm7zL",
+        "column_gjw9xk",
+        "column_twNr3V",
+        "column_eDrEQY",
+        "column_jxAUXk",
+        "column_dkEM8D",
+        "column_9ahy3D"
+      ],
+      "settings": {
+        "hide_on_index": true,
+        "title": "",
+        "heading_size": "h1",
+        "columns_desktop": 8,
+        "column_alignment": "center",
+        "color_scheme": "scheme-83220331-bc12-4525-86ef-724f528745b1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": ["announcement-bar", "header", "links_MecCHy"]
+}

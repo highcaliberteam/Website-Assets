@@ -1,0 +1,387 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_7ncQXm": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Product SKU</strong>: {{ product.metafields.custom.sku.value }}",
+            "text_style": "body"
+          }
+        },
+        "variant_text_f7F7ni": {
+          "type": "variant_text",
+          "settings": {
+            "text": "TEST",
+            "text_style": "body",
+            "metafield_key": "Closeout Pricing"
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
+        "variant_text_Rgi7rx": {
+          "type": "variant_text",
+          "settings": {
+            "text": "In Stock Quantity:",
+            "text_style": "body",
+            "metafield_key": "stock"
+          }
+        },
+        "custom_liquid_Yt8ce7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.hc48 == true %}\n  <div class=\"custom-image-container\">\n    <a href=\"https://highcaliberline.com/pages/hc-express-rush-delivery\" target=\"_blank\" rel=\"noopener noreferrer\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0612/2887/5823/files/HC-48-Express-Rush.png?v=1738106348\" alt=\"Learn More\">\n    </a>\n  </div>\n{% endif %}"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "breaks_ceeVCT": {
+          "type": "breaks",
+          "settings": {
+            "color_scheme": ""
+          }
+        },
+        "custom_liquid_UCLLpT": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% if product.selected_or_first_available_variant.metafields.custom.blowout-price != blank %}\n<table style=\"width: 100%; height: 39.1876px;\" width=\"100%\">\n<tbody>\n<tr style=\"height: 19.5938px;\">\n<td style=\"width: 50%; height: 19.5938px; text-align: left;\"><strong><span style=\"color: rgb(255, 42, 0);\">NEW CLOSEOUT PRICE(R)</span></strong></td>\n<td style=\"width: 50%; height: 19.5938px; text-align: left;\"><strong><span style=\"color: rgb(255, 42, 0);\">{{ product.selected_or_first_available_variant.metafields.custom.blowout-price }}</span></strong></td>\n</tr>\n</tbody>\n</table>\n{% endif %}"
+          }
+        },
+        "custom_liquid_z964Cf": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<table style=\"width: 100%; height: 39.1876px;\" width=\"100%\">\n<tbody>\n<tr style=\"height: 19.5938px;\">\n<td style=\"width: 3%; height: 19.5938px; text-align: center;\"><strong>Quantity</strong></td>\n<td style=\"width: 3%; height: 19.5938px; text-align: center;\"><strong>Price (R)</strong></td>\n<td style=\"width: 3%; height: 19.5938px; text-align: center;\"><strong><span style=\"color: rgb(255, 42, 0);\">CLOSEOUT (R)</span></strong></td>\n</tr>\n<tr style=\"height: 19.5938px;\">\n<td style=\"width: 3%; height: 19.5938px; text-align: center;\"><strong>50+</strong></td>\n<td style=\"width: 3%; height: 19.5938px; text-align: center;\"><strong>$54.99</strong></td>\n<td style=\"width: 3%; height: 19.5938px; text-align: center;\"><strong><span style=\"color: rgb(255, 42, 0);\">$39.99</span></strong></td>\n</tr>\n</tbody>\n</table>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "text_bJxgHm": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Product Information</strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "variant_text_3q4Aqm": {
+          "type": "variant_text",
+          "settings": {
+            "text": "<strong>Setup Charge:</strong>",
+            "text_style": "body",
+            "metafield_key": "website_setup_charge"
+          }
+        },
+        "variant_text_bbhBmm": {
+          "type": "variant_text",
+          "settings": {
+            "text": "<strong>Production Time:</strong>",
+            "text_style": "body",
+            "metafield_key": "website_production_times"
+          }
+        },
+        "variant_text_JtDJGV": {
+          "type": "variant_text",
+          "settings": {
+            "text": "<strong>Price Includes:</strong>",
+            "text_style": "body",
+            "metafield_key": "website_price_includes"
+          }
+        },
+        "variant_text_eKzWaw": {
+          "type": "variant_text",
+          "settings": {
+            "text": "<strong>Standard Imprinting Method:</strong>",
+            "text_style": "body",
+            "metafield_key": "website_standard_imprinting_method"
+          }
+        },
+        "variant_text_h4aNED": {
+          "type": "variant_text",
+          "settings": {
+            "text": "<strong>Standard Imprint Location:</strong>",
+            "text_style": "body",
+            "metafield_key": "standard_imprint_location"
+          }
+        },
+        "variant_text_LyTcTn": {
+          "type": "variant_text",
+          "settings": {
+            "text": "<strong>Standard Imprint Area:</strong>",
+            "text_style": "body",
+            "metafield_key": "standard_imprint_area"
+          }
+        },
+        "collapsible_tab_ATwAxC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "More Product Information",
+            "icon": "ruler",
+            "content": "",
+            "custom_liquid": "<table class=\"carton-info-table\" style=\"width:100%; text-align: left;\" cellpadding=\"5\">\n  <colgroup>\n    <col style=\"width:30%\">\n    <col style=\"width:70%\">\n  </colgroup>\n  <tr>\n    <th>Item Count per Carton</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.items_in_carton }}</td>\n  </tr>\n  <tr>\n    <th>Carton Length</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.package_length }} in</td>\n  </tr>\n  <tr>\n    <th>Carton Width</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.package_width }} in</td>\n  </tr>\n  <tr>\n    <th>Carton Height</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.package_height }} in</td>\n  </tr>\n  <tr>\n    <th>Weight per Carton</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.weight_per_carton }} lbs</td>\n  </tr>\n  <tr>\n    <th>Repeat Setup Charge</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.website_repeat_setup_charge }}</td>\n  </tr>\n  <tr>\n    <th>Run Charge</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.website_run_charge }}</td>\n  </tr>\n  <tr>\n    <th>Item Size</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.dimensions }}</td>\n  </tr>\n  <tr>\n    <th>Optional Imprint Method 1</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.optional_imprint_method_1 }}</td>\n  </tr>\n  <tr>\n    <th>Optional Imprint Location 1</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.optional_location_1 }}</td>\n  </tr>\n  <tr>\n    <th>Optional Imprint Area 1</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.optional_imprint_area_1 }}</td>\n  </tr>\n\n  {% if product.selected_or_first_available_variant.metafields.custom.optional_imprint_method_2 != blank %}\n  <tr>\n    <th>Optional Imprint Method 2</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.optional_imprint_method_2 }}</td>\n  </tr>\n  {% endif %}\n  \n  {% if product.selected_or_first_available_variant.metafields.custom.optional_location_2 != blank %}\n  <tr>\n    <th>Optional Imprint Location 2</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.optional_location_2 }}</td>\n  </tr>\n  {% endif %}\n  \n  {% if product.selected_or_first_available_variant.metafields.custom.optional_imprint_area_2 != blank %}\n  <tr>\n    <th>Optional Imprint Area 2</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.optional_imprint_area_2 }}</td>\n  </tr>\n  {% endif %}\n  \n  {% if product.selected_or_first_available_variant.metafields.custom.optional_imprint_method_3 != blank %}\n  <tr>\n    <th>Optional Imprint Method 3</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.optional_imprint_method_3 }}</td>\n  </tr>\n  {% endif %}\n  \n  {% if product.selected_or_first_available_variant.metafields.custom.optional_location_3 != blank %}\n  <tr>\n    <th>Optional Imprint Location 3</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.optional_location_3 }}</td>\n  </tr>\n  {% endif %}\n  \n  {% if product.selected_or_first_available_variant.metafields.custom.optional_imprint_area_3 != blank %}\n  <tr>\n    <th>Optional Imprint Area 3</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.optional_imprint_area_3 }}</td>\n  </tr>\n  {% endif %}\n{% if product.selected_or_first_available_variant.metafields.custom.additional_notes != blank %}\n  <tr>\n    <th>Additional Notes</th>\n    <td>{{ product.selected_or_first_available_variant.metafields.custom.additional_notes | metafield_tag }}</td>\n  </tr>\n  {% endif %}\n</table>",
+            "page": "",
+            "text_style": "uppercase"
+          }
+        },
+        "collapsible_tab_aEaw86": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Availability",
+            "icon": "box",
+            "content": "<ul><li>Current Stock: 2500</li><li>Incoming Stock: 5000</li></ul>",
+            "custom_liquid": "",
+            "page": "",
+            "text_style": "body"
+          }
+        },
+        "collapsible_tab_xr8qCb": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping Notes",
+            "icon": "truck",
+            "content": "",
+            "custom_liquid": "",
+            "page": "",
+            "text_style": "body"
+          }
+        },
+        "collapsible_tab_mrGLDd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Compliance Info",
+            "icon": "question_mark",
+            "content": "",
+            "custom_liquid": "{% if product.metafields.product.compliance_info != blank %}\n<a href=\"{{ product.metafields.product.compliance_info }}\" target=\"_blank\">\n Download PDF\n  </a>\n{% endif %}\n <p>\n{% if product.metafields.custom.additional_compliance_info != blank %}\n<a href=\"{{ product.metafields.custom.additional_compliance_info }}\" target=\"_blank\">\n Download PDF\n  </a>\n{% endif %}",
+            "page": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "text_7ncQXm",
+        "variant_text_f7F7ni",
+        "price",
+        "variant_picker",
+        "variant_text_Rgi7rx",
+        "custom_liquid_Yt8ce7",
+        "quantity_selector",
+        "buy_buttons",
+        "breaks_ceeVCT",
+        "custom_liquid_UCLLpT",
+        "custom_liquid_z964Cf",
+        "description",
+        "share",
+        "text_bJxgHm",
+        "variant_text_3q4Aqm",
+        "variant_text_bbhBmm",
+        "variant_text_JtDJGV",
+        "variant_text_eKzWaw",
+        "variant_text_h4aNED",
+        "variant_text_LyTcTn",
+        "collapsible_tab_ATwAxC",
+        "collapsible_tab_aEaw86",
+        "collapsible_tab_xr8qCb",
+        "collapsible_tab_mrGLDd"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-5",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "group_variants_enable": true,
+        "group_variants_source": "alttext",
+        "variant_grouping_delimiter": "__",
+        "variant_grouping_position": 1,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn_Pt3w8m": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9dcaUp": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/icons8-play-100.png",
+            "title": "",
+            "text": "",
+            "link_label": "Zoom Catalogue",
+            "link": "https://highcaliberline.zoomcustom.com/user/flyer/create"
+          }
+        },
+        "column_6zQdHF": {
+          "type": "column",
+          "settings": {
+            "type": "flyer",
+            "image": "shopify://shop_images/icons8-paper-100.png",
+            "title": "Create Flyer",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_33NmY7": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/icons8-images-100.png",
+            "title": "Download Images",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UHJj7E": {
+          "type": "column",
+          "settings": {
+            "type": "imprint",
+            "image": "shopify://shop_images/icons8-paint-100.png",
+            "title": "Standard Imprint Colors",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Q9L94q": {
+          "type": "column",
+          "settings": {
+            "type": "default",
+            "image": "shopify://shop_images/icons8-art-100.png",
+            "title": "",
+            "text": "",
+            "link_label": "Art Template",
+            "link": "{{ product.metafields.custom.art_template.value }}"
+          }
+        },
+        "column_mXc8Y4": {
+          "type": "column",
+          "settings": {
+            "type": "freight_estimator",
+            "image": "shopify://shop_images/icons8-truck-100.png",
+            "title": "Freight Estimator",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9dcaUp",
+        "column_6zQdHF",
+        "column_33NmY7",
+        "column_UHJj7E",
+        "column_Q9L94q",
+        "column_mXc8Y4"
+      ],
+      "custom_css": [".link {color: rgb(20, 34, 67);}"],
+      "settings": {
+        "title": "Tools",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "freight_estimator_popup_image": "shopify://shop_images/freight-estimator-popout-6_8a01da59-a051-428e-aef9-63095ac4cb10.jpg",
+        "fe_color_scheme": ""
+      }
+    },
+    "custom_liquid_JFiUdx": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<table><tr><td colspan=\"3\" width=\"100%\">Additional Information</td></tr><tr><td></td><td></td><td></td></tr></table>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Related Products",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_Pt3w8m",
+    "custom_liquid_JFiUdx",
+    "related-products"
+  ]
+}
