@@ -36,6 +36,7 @@ This repository is organized as a monorepo, containing multiple components and u
 
 - **pdf-generation/**
   - Node.js service for generating PDFs.
+  - https://github.com/highcaliberteam/Website-Assets/tree/main/pdf-generation
   - Contains:
     - `assets/`: Assets used for PDF generation.
     - `index.js`, `helpers.js`: Main logic and utilities.
