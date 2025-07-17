@@ -1,6 +1,5 @@
 # Repo name
 
-[Link to the Confluence space corresponding to this repo](https://satelcreative.atlassian.net/wiki/spaces/SAT/overview)
 <!--
 This template is meant for a monorepo approach where all the work
 for a client is stored here, even if it has multiple components
