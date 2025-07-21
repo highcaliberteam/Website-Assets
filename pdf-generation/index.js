@@ -204,7 +204,7 @@ app.post("/apps/send-email", async (req, res) => {
  * Handle contact form / make an offer
  */
 app.post("/apps/make-an-offer", async (req, res) => {
-  const { "g-recaptcha-response": recaptchaResponse, customer_name, company, country, email, notes, cart_items, product_url } = req.body;
+  const { "g-recaptcha-response": recaptchaResponse, customer_name, asi_number, company, country, email, notes, cart_items, product_url } = req.body;
 
   try {
     // Validate CAPTCHA
@@ -228,8 +228,8 @@ app.post("/apps/make-an-offer", async (req, res) => {
 
     // Validate required fields
     const validation = validateRequiredFields(
-      { customer_name, company, country, email, notes },
-      ['customer_name', 'company', 'country', 'email', 'notes']
+      { customer_name, asi_number, company, country, email, notes },
+      ['customer_name', 'asi_number', 'company', 'country', 'email', 'notes']
     );
 
     if (!validation.isValid) {
@@ -250,6 +250,7 @@ You have received a new lead.
 
 Details:
         Customer Name: ${customer_name}
+        ASI Number: ${asi_number}
         Email: ${email}
         Country: ${country}
         Company: ${company || "N/A"}
